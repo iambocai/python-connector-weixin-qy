@@ -1,0 +1,17 @@
+<xml>
+   <ToUserName><![CDATA[{{ toUser }}]]></ToUserName>
+   <FromUserName><![CDATA[{{ fromUser }}]]></FromUserName>
+   <CreateTime>{{ timestamp }}</CreateTime>
+   <MsgType><![CDATA[news]]></MsgType>
+   <ArticleCount>{{ articles|length }}</ArticleCount>
+   <Articles>
+   {% for item in articles %}
+       <item>
+           <Title><![CDATA[{{ item.title }}]]></Title> 
+           <Description><![CDATA[{{ item.description }}]]></Description>
+           <PicUrl><![CDATA[{{ item.picurl }}]]></PicUrl>
+           <Url><![CDATA[{{ item.url }}]]></Url>
+       </item>
+   {% endfor %}
+   </Articles>
+</xml>

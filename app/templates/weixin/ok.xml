@@ -1,0 +1,9 @@
+<xml>
+    <ToUserName><![CDATA[{{ toUser }}]]></ToUserName>
+    <FromUserName><![CDATA[{{ sCorpID }}]]></FromUserName>
+    <CreateTime>{{ timestamp }}</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[{{ text }}]]></Content>
+    <MsgId>1234567890123456</MsgId>
+    <AgentID>{{ sAgentID }}</AgentID>
+</xml>
