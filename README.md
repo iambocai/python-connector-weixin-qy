@@ -23,7 +23,7 @@ __如果secure安装不成功（GFW，哈哈），请自行为app/weixin/Call.py
 
 config/default.py
 
-关注config/__init__.py以获取更多环境相关配置的方法
+参考[hustlzp的博客分享](http://www.hustlzp.com/post/2014/08/flask-config)以获取更多环境相关配置的方法
 
 
 
