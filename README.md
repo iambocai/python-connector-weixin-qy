@@ -14,6 +14,8 @@ Flask-Session
 
 requests[secure] （HTTPS支持）
 
+__如果secure安装不成功（GFW，哈哈），请自行为app/weixin/Call.py中所有requests.get调用添加verify=True参数以略过SSL证书检查。__
+
 推荐使用virtualenv以方便业务部署
 
 2. 配置文件
