@@ -34,7 +34,7 @@ class AccessToken:
                 self.access_token = ret['access_token']
                 self.expires_in = ret['expires_in']
                 self.timestamp = currtime
-                urrent_app.logger.debug('new access_token:'+self.access_token)
+                current_app.logger.debug('new access_token:'+self.access_token)
                 return True
             else:
                 current_app.logger.debug('get ak failed:'+json.dumps(ret))
